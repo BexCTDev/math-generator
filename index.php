@@ -1,9 +1,14 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title><?php echo ucwords(str_replace('-', ' ', basename(__DIR__)));?></title>
-</head>
-<body>
-<h1><?php echo ucwords(str_replace('-', ' ', basename(__DIR__)));?></h1>
-</body>
-</html>
+<?php include('./template/header.php');?>
+
+<?php
+//VARIABLES
+$range = array();
+$depth = 2;
+
+?>
+
+<h1><?php echo $projectTitle;?></h1>
+<div id="config">
+
+</div>
+<?php include('./template/footer.php');?>
