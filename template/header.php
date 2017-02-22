@@ -7,7 +7,7 @@ $base_project = 'c:/wamp64/www/projects/'.$projectName.'/';
 <!DOCTYPE html>
 <html>
 <head>
-	<title><?php echo projectTitle;?></title>
+	<title><?php echo $projectTitle;?></title>
 	<link rel="stylesheet" type="text/css" href="./css/main.css">
 </head>
 <body>
